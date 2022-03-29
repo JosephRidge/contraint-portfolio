@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         rounded.cornerRadius= 15f
         val appLogo = findViewById<ImageView>(R.id.logo)
         appLogo.setImageDrawable(rounded)
+        var s   = " mbdbvsmbvmdbs,bv,mb "
+        println(s.contentEquals("nfns,mfn,sn,mfsn"))
 
     }
 }
